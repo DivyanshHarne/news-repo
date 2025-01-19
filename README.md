@@ -1,28 +1,18 @@
-Prerequisites :
-- Ensure the following are installed on your system:
-  (1) Node.js
-  (2) MySQL
+News Scrapper 
+Scrapes lastest news from https://news.ycombinator.com/ in real-time.
 
-Cloning the Repository : 
-- Create a suitable folder for the project:
-  'mkdir <Your_Folder_Name>'
-- Clone the repository into the created folder:
-  'git clone https://github.com/PrakharChaturvedi/Front.PageAssignmentPrakhar.git'
-- Exit the terminal or navigate to the project directory:
-  'cd Front.PageAssignmentPrakhar'
+To run this locally:
 
-Installing Dependencies :
-- 'npm init -y'
-- 'npm i'
+Clone the repository using this command:
 
-Configuration :
-- Create a .env file in the root directory of the project.
-- Add the following environment variables to the .env file:
-  PORT=<Your_Desired_Port>  
-  DB_HOST=<Database_Host>  
-  DB_DATABASE=<Database_Name>  
-  DB_USER=<Database_Username>  
-  DB_PASSWORD=<Database_Password>
+ git clone https://github.com/DivyanshHarne/news-repo.git
 
-Running the Project :
-  'npm start'  
+For installing all of the requires packages run
+
+npm install
+
+Create a .env file and set up environment variables for project to run.
+
+Lastly to start server run 
+
+node ./index.js
