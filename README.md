@@ -17,3 +17,6 @@ Create a .env file and set up environment variables for project to run.
 Lastly to start server run 
 
 node ./index.js
+
+DATABASE
+![database](https://github.com/user-attachments/assets/b43ccb29-aa79-45c2-bf0b-0f5c3476e154)
